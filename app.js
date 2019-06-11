@@ -36,3 +36,11 @@ allCookieStoresArray.push(new CookieStore('Seattle Center', 11, 38, 3.7));
 allCookieStoresArray.push(new CookieStore('Capitol Hill', 20, 38, 2.3));
 allCookieStoresArray.push(new CookieStore('Alki', 2, 16, 4.6));
 
+var tableEl = document.getElementById('store-table');
+var trEl = document.createElement('tr');
+var tdEl = document.createElement('td');
+tdEl.textContent = 'Location';
+
+trEl.appendChild(tdEl);
+
+tableEl.appendChild(trEl);
