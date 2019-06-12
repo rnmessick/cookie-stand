@@ -11,7 +11,6 @@ function CookieStore (location, minCustomer, maxCustomer, averageCookieSale){
   this.averageCookieSale = averageCookieSale;
   this.totalsPerHour = [];
   this.cookiePerHourPerStoreArray = [];
-  allCookieStoresArray.push(this);
   this.calculateCustomersPerHour();
   this.calculateCookiesSoldInOneHour();
   this.calculateTotalsPerHour();
@@ -73,3 +72,4 @@ allCookieStoresArray.push(new CookieStore('Seattle Center', 11, 38, 3.7));
 allCookieStoresArray.push(new CookieStore('Capitol Hill', 20, 38, 2.3));
 allCookieStoresArray.push(new CookieStore('Alki', 2, 16, 4.6));
 
+console.log('My stores ', allCookieStoresArray);
