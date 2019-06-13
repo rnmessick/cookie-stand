@@ -12,9 +12,28 @@
         </ul>
       </nav>
     </header>
-    <main>       
-      <table id="store-container"></table>
+    <main>
+      <form id="storeForm">
+        <fieldset>
+          <legend>Cookies Store Form</legend>
 
+          <label for="location">Location</label>
+          <input type="text" name="location">
+
+          <label for="min">Minimum Customers Per Hour</label>
+          <input type="text" name="min">
+
+          <label for="max">Maximum Customers Per Hour</label>
+          <input type="text" name="max">
+
+          <label for="avg">Average Cookies Sale</label>
+          <input type="text" name="avg">
+
+          <button type="submit">Submit Info</button>
+        </fieldset>
+      </form>
+      
+      <table id="store-container"></table>
     </main>
 
   <script src="app.js"></script>
