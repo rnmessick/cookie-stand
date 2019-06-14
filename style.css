@@ -45,7 +45,8 @@ ul {
   margin-bottom: 10px;
 }
 li.store-name {
-  color: blueviolet;
+  color: rgb(16, 3, 27);
+  font-size: 2em;
 }
 
 nav li {
@@ -84,8 +85,8 @@ p {
 footer {
   height: 100px;
   margin-top: 50px;
-  background-color: rgb(188, 223, 252);
-  border: dotted red 1px;
+  background-color: rgb(187, 211, 231);
+
 }
 
 form fieldset legend{
