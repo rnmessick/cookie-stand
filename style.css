@@ -1,3 +1,98 @@
-table, td {
-  border: solid black 1px;
+* {
+  box-sizing: border-box;
+  font-family: Aclonica, Helvetica, sans-serif;
+  font-weight: bold;
+
+}
+
+body{
+  width: 960px;
+  margin: auto;
+}
+.bg {
+  /* The image used */
+  background-image: url("./assets/fish-transparent.png");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  /* background-position: center; */
+  background-repeat: round;
+  background-size: cover;
+}
+header {
+  height: 125px;
+  background-color: lightpink;
+
+
+
+}
+
+nav > ul > li {
+  float: left;
+  margin-right: 50px;
+  line-height: 60px;
+}
+nav > ul > li > img {
+  padding-top: 13px;
+  padding-left: 20px;
+
+}
+ul {
+  list-style-type: none;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+li.store-name {
+  color: blueviolet;
+}
+
+nav li {
+  list-style: none;
+}
+
+#location-list {
+ padding: 5px;
+
+}
+
+
+main > article {
+  margin-bottom: 30px;
+}
+
+main > article > section {
+  width: 50%;
+  float: left;
+  padding-left: 30px;
+}
+
+h3 {
+  font-size: 1.3em;
+  margin-bottom: 7px;
+}
+
+p {
+  overflow-y: scroll;
+  border: double black 5px;
+  padding: 5px;
+  height: 100px;
+
+}
+
+footer {
+  height: 100px;
+  margin-top: 50px;
+  background-color: rgb(188, 223, 252);
+  border: dotted red 1px;
+}
+
+form fieldset legend{
+  display: inline;
+  padding-left: 10px;
+}
+table, td{
+  border: double black 5px;
+  background-color: aqua;
 }
