@@ -2,16 +2,22 @@
 <html>
   <head>
     <title>Sales Data for Cookie Stands</title>
-    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-        </ul>
-      </nav>
-    </header>
+      <header>
+          <nav>
+            <ul>
+              <li><img id="logo" src="./assets/frosted-cookie.jpg" alt="frosted-cookie" width="110px"></li>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./sales.html">Sales</a></li>
+              <li><a href="./store.html">Buy Our Merch!</a> </li>
+              <li><a href="./aboutUs.html">About Us</a> </li>
+              <li><img id="logo" src="./assets/frosted-cookie.jpg" alt="frosted-cookie" width="110px"></li>
+            </ul>
+          </nav>
+        </header>
     <main>
       <form id="storeForm">
         <fieldset>
@@ -20,10 +26,10 @@
           <label for="location">Location</label>
           <input type="text" name="location">
 
-          <label for="min">Minimum Customers Per Hour</label>
+          <label for="min">Min Customers Per Hour</label>
           <input type="text" name="min">
 
-          <label for="max">Maximum Customers Per Hour</label>
+          <label for="max">Max Customers Per Hour</label>
           <input type="text" name="max">
 
           <label for="avg">Average Cookies Sale</label>
@@ -32,10 +38,14 @@
           <button type="submit">Submit Info</button>
         </fieldset>
       </form>
-      
+      <section class="swimming-fishes">
+      <img src="./assets/salmon.png" alt="salmon" width="250px">
+      <h3>Which way to the salmon cookies??</h3>
+      <img src="./assets/chinook.jpg" alt="other direction fish" width="250px">
+    </section>
       <table id="store-container"></table>
     </main>
-
+<footer></footer>
   <script src="app.js"></script>
 </body>
 </html>
