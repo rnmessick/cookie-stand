@@ -104,6 +104,8 @@ var renderTable = function() {
         break;
       }
     }
+    //create footer row with totals by hour/allstores
+
 
   }
 
@@ -142,7 +144,7 @@ var handleFormSubmit = function(formSubmitEvent) {
   console.log(allCookieStoresArray);
 
   storeTableEl.innerHTML = '';
-
+  document.getElementById('storeForm').reset();
   renderTable();
 
 };

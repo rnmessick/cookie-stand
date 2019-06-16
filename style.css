@@ -6,7 +6,7 @@
 }
 
 body{
-  width: 960px;
+  width: 1000px;
   margin: auto;
 }
 .bg {
@@ -24,25 +24,25 @@ body{
 header {
   height: 125px;
   background-color: lightpink;
-
-
-
+  width: 1035px;
 }
 
 nav > ul > li {
   float: left;
-  margin-right: 50px;
+  padding-left: 60px;
   line-height: 60px;
 }
 nav > ul > li > img {
+
   padding-top: 13px;
-  padding-left: 20px;
+  padding-left: 30px;
 
 }
 ul {
   list-style-type: none;
   display: inline-block;
   margin-bottom: 10px;
+  font-size: 1.2em;
 }
 li.store-name {
   color: rgb(16, 3, 27);
@@ -57,7 +57,6 @@ nav li {
  padding: 5px;
 
 }
-
 
 main > article {
   margin-bottom: 30px;
@@ -84,16 +83,102 @@ p {
 
 footer {
   height: 100px;
-  margin-top: 50px;
+  margin-top: 10px;
   background-color: rgb(187, 211, 231);
+  width: 1035px;
+}
+
+footer > h3 {
+  text-align: center;
+}
+.swimming-fishes {
+ padding-left: 100px;
+  margin: auto;
+  width: 960px;
+
+}
+/* poor salmon don't know that these aren't cookies FOR salmons */
+.speech-bubble {
+  background: #a6dcf1;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  font-size: 1.2rem;
+  line-height: 1;
+  margin: 15px auto 40px;
+  max-width: 400px;
+  padding: 20px;
+  position: relative;
+  display: inline-block;
+}
+
+.speech-bubble::before {
+  border-left: 20px solid transparent;
+  border-top: 20px solid #a6dcf1;
+  bottom: -20px;
+  content: "";
+  position: absolute;
+
+}
+.speech-bubble::after {
+  border-left: 20px solid transparent;
+  border-top: 20px solid #a6dcf1;
+  bottom: -20px;
+  content: "";
+  position: absolute;
+  right: 20px;
+}
+
+form{
+  padding: 10px 5px;
+  text-align: center;
+
+  background-image: url('assets/frosted-cookie.jpg');
+
+  width: 1025px;
 
 }
 
-form fieldset legend{
-  display: inline;
+  fieldset legend{
+  font-size: 1.5em;
+}
+  
+  fieldset label{
+  width: 500px;
+  font-size: 1.5em;
+  display: block;
+  /* border: double 5px rgb(240, 97, 216); */
+  
+}
+
+input[type=text] {
+  background-color: white;
+  /* background-image: url('assets/salmon.png'); */
+  color: black;
+  font-size: 1.2em;
+  background-position: 10px 10px; 
+  background-size: 40px;
+  /* padding-left: 40px; */
+  padding-right: 80px;
   padding-left: 10px;
+  height: 35px;
+  width: 500px;
+ 
+}
+
+button{
+  display: block;
+  margin: auto;
+  width: 150px;
+  height: 30px;
+  font-size: 1.3em;
+}
+
+#form-style{
+  margin: auto;
 }
 table, td{
   border: double black 5px;
   background-color: aqua;
+  padding: 5px;
+
 }
