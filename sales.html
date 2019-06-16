@@ -19,33 +19,50 @@
           </nav>
         </header>
     <main>
+        <section class="swimming-fishes">
+            <div class="speech-bubble">
+              <h3>Which way to the salmon cookies??</h3>
+            </div>
+            <div class="speech-bubble">
+              <h3>Which way to the salmon cookies??</h3>
+            </div>
+          <img src="./assets/chinook.jpg" alt="other direction fish" width="200px">
+          <img src="./assets/salmon.png" alt="salmon" width="200px">
+    
+          <img src="./assets/chinook.jpg" alt="other direction fish" width="200px">
+          <img src="./assets/salmon.png" alt="salmon" width="200px">
+        </section>
+
+      <div id="form-style">
+        <h2>Add New Store Info</h2>
       <form id="storeForm">
+        
         <fieldset>
-          <legend>Cookies Store Form</legend>
+          <legend>New Store Form</legend>
 
-          <label for="location">Location</label>
-          <input type="text" name="location">
+          <!-- <label for="location">Store Name</label> -->
+          <input type="text" name="location" placeholder="Store Name" required>
 
-          <label for="min">Min Customers Per Hour</label>
-          <input type="text" name="min">
+          <!-- <label for="min">Min Customers Per Hour</label> -->
+          <input type="text" name="min" placeholder="Min Customers Per Hour" required >
 
-          <label for="max">Max Customers Per Hour</label>
-          <input type="text" name="max">
+          <!-- <label for="max">Max Customers Per Hour</label> -->
+          <input type="text" name="max" placeholder="Max Customers Per Hour" required>
 
-          <label for="avg">Average Cookies Sale</label>
-          <input type="text" name="avg">
+          <!-- <label for="avg">Avg Cookies Sold Per Customer</label> -->
+          <input type="text" name="avg" placeholder="Avg Cookies Sold Per Customer" required>
 
           <button type="submit">Submit Info</button>
         </fieldset>
       </form>
-      <section class="swimming-fishes">
-      <img src="./assets/salmon.png" alt="salmon" width="250px">
-      <h3>Which way to the salmon cookies??</h3>
-      <img src="./assets/chinook.jpg" alt="other direction fish" width="250px">
-    </section>
+    </div>
+    <h2>Store Totals by Hour and Day:</h2>
       <table id="store-container"></table>
     </main>
-<footer></footer>
+<footer>
+  <img src="" alt="">
+  <h3>Website by Renee Messick</h3>
+</footer>
   <script src="app.js"></script>
 </body>
 </html>
